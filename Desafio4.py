@@ -1,0 +1,6 @@
+variavel = input('Escreva algo ')
+print(f'Eh numerico?: {variavel.isnumeric()}')
+print(f'Eh letra?: {variavel.isalpha()}')
+print(f'Eh decimal?: {variavel.isdecimal()}')
+print(f'Eh maiusculo?: {variavel.isupper()}')
+print(type(variavel))
